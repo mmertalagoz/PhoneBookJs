@@ -1,0 +1,69 @@
+body {
+	margin-top: 5px;
+	background-color: rgba(253, 167, 223, 0.4);
+}
+
+.container {
+	border: 1px solid rgba(189, 82, 189, 0.534);
+	padding: 50px 20px;
+	box-shadow: 0rem 1rem 5rem gray;
+}
+
+.btn {
+	border: 0px;
+	outline: none;
+	padding: 5px;
+	font-size: 1.5rem;
+}
+
+.btn--edit {
+	color: green;
+}
+
+.btn--delete {
+	color: red;
+}
+
+.info {
+	margin: 1rem 0;
+	padding: 1rem;
+	border-radius: 12px;
+	background-color: whitesmoke;
+}
+
+.info--success {
+	border: 1px solid green;
+	display: none;
+}
+
+.info--success:hover {
+	background-color: rgb(100, 253, 113);
+	transition: 500ms;
+}
+
+.info--error {
+	border: 1px solid red;
+	display: none;
+}
+
+.info--error:hover {
+	background-color: rgb(237, 49, 49);
+	transition: 500ms;
+}
+
+.fas {
+	pointer-events: none;
+}
+
+.gradient-text {
+	background: #cf02cf;
+	background: -webkit-repeating-linear-gradient(
+		to left,
+		#cf02cf 0%,
+		#cf2106 6%
+	);
+	background: -moz-repeating-linear-gradient(to left, #cf02cf 0%, #cf2106 6%);
+	background: repeating-linear-gradient(to left, #cf02cf 0%, #cf2106 6%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
